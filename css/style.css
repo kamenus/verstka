@@ -3,13 +3,30 @@ body {
   line-height: 34px;
 }
 
-h1, 
+header {
+  padding: 100px 0px 50px; 
+}
+
+h1,
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
 }
 
-.nav {
+.nav,
+.header {
   background-color: #FD739C;
   color: white;  
+}
+
+.landing-section-whoami {
+  padding-top: 50px;
+}
+
+.h2 {
+  padding-top: 30px;
+}
+
+#nav-whoami {
+  padding-bottom: 50px;
 }
