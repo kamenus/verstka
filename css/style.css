@@ -9,7 +9,7 @@ body {
   color: white;  
 }
 
-.header_padding {
+.header__displaying {
   padding: 100px 0px 50px; 
 }
 
@@ -23,10 +23,10 @@ body {
   font-style: normal;
 }
 
-.h2_padding {
+.h2__displaying {
   padding-top: 30px;
 }
 
-.landing-section-whoami {
+.landing-section-whoami__displaying {
   padding-top: 50px;
 }
