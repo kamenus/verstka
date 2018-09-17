@@ -1,0 +1,40 @@
+.container {
+  width: 976px;
+}
+
+.row {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+  padding-left: 8px;
+  padding-right: 8px;
+  box-sizing: border-box;
+}
+
+.col-1 { flex-basis: 8.3333% }
+.col-2 { flex-basis: 16.6667% }
+.col-3 { flex-basis: 24.9999% }
+.col-4 { flex-basis: 33.3333% }
+/* .col-5 { flex-basis:  } */
+/* .col-6 { flex-basis:  } */
+/* .col-7 { flex-basis:  } */
+/* .col-8 { flex-basis:  } */
+/* .col-9 { flex-basis:  } */
+/* .col-10 { flex-basis:  } */
+/* .col-11 { flex-basis:  } */
+/* .col-12 { flex-basis: 100% } */
+
+
+.card {
+  background: rgba(255, 0, 0, 0.3);
+  border: 1px solid rgba(72, 72, 72, 0.2);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
