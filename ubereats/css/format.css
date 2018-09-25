@@ -76,6 +76,7 @@
 /* Condition panel (When-To) */
 .container__body__conditions {
   margin-right: 0px;
+  display: flex;
 }
 
 .container__body__conditions__form {
