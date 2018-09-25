@@ -1,0 +1,113 @@
+.container {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+.container__header__button {
+  font-size: 11px;
+  line-height: 13px;
+}
+.container__header__buttons_sing-in {
+  color: black;
+}
+
+.container__header__buttons_register {
+  color: white;
+}
+
+.container__header__buttons_text {
+  text-align: center;
+  margin-top: 14px;
+}
+
+.container__body__search_text {
+  font-size: 13px;
+  text-align: left;
+  opacity: 0.5;
+  color: #626262;
+}
+
+.container__body__conditions__form_text {
+  font-size: 13px;
+  line-height: 24px;
+  margin-top: 8px;
+  color: #1D1D1D;
+}
+.container__body__conditions__when__form_text {
+  text-align: center;
+}
+.container__body__conditions__to__form_text {
+  padding-left: 11px;
+}
+
+.container__body__conditions__when_name,
+.container__body__conditions__to_name {
+  font-size: 11px;
+  line-height: 13px;
+  text-align: left;
+  margin-bottom: 8px;
+  color: #626262;
+}
+.container__body_header {
+  font-size: 22px;
+  line-height: 34px;
+  text-align: left;
+  color: #1D1D1D;
+}
+
+/* Card text styles */
+.container__body__card_name {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #1D1D1D;
+}
+
+.container__body__card_features {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: left;
+  color: #626262;
+}
+.container__body__card_time {
+  font-size: 13px;
+  line-height: 21px;
+  text-align: left;
+  color: #1D1D1D;  
+}
+
+/* Footer text styles */
+.container__footer__language-selection_lang{
+  font-size: 13px;
+  line-height: 15px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.container__footer__social_text {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.container__footer__social_hashtag {
+  color: #49A144;
+}
+.container__footer__social_company-name {
+  color: #ffffff;
+}
+
+.container__footer__navbar_link {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: left;
+  color: #ffffff;
+}
+.container__footer__mini-navbar_link {
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: left;
+  color: #ffffff;
+}
