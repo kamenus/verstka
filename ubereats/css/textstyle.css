@@ -7,11 +7,11 @@
   font-size: 11px;
   line-height: 13px;
 }
-.container__header__buttons_sing-in {
+.container__header__buttons__sing-in_text {
   color: black;
 }
 
-.container__header__buttons_register {
+.container__header__buttons__register_text {
   color: white;
 }
 
@@ -20,35 +20,44 @@
   margin-top: 14px;
 }
 
-.container__body__search_text {
+.container__body__search__field_text {
   font-size: 13px;
   text-align: left;
   opacity: 0.5;
   color: #626262;
 }
 
-.container__body__conditions__form_text {
+.container__conditions__form_text {
   font-size: 13px;
   line-height: 24px;
   margin-top: 8px;
   color: #1D1D1D;
 }
-.container__body__conditions__when__form_text {
+.container__conditions__form__when_text {
   text-align: center;
 }
-.container__body__conditions__to__form_text {
+.container__conditions__form__to_text {
   padding-left: 11px;
 }
 
-.container__body__conditions__when_name,
-.container__body__conditions__to_name {
+.container__conditions__when_name,
+.container__conditions__to_name {
   font-size: 11px;
   line-height: 13px;
   text-align: left;
   margin-bottom: 8px;
   color: #626262;
 }
-.container__body_header {
+.container__conditions__separator_tablet {
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: #626262; 
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.container__body__header {
   font-size: 22px;
   line-height: 34px;
   text-align: left;
@@ -97,14 +106,14 @@
   color: #ffffff;
 }
 
-.container__footer__navbar_link {
+.container__footer__navbar__link {
   text-decoration: none;
   font-size: 13px;
   line-height: 15px;
   text-align: left;
   color: #ffffff;
 }
-.container__footer__mini-navbar_link {
+.container__footer__mini-navbar__link {
   text-decoration: none;
   font-size: 11px;
   line-height: 13px;
