@@ -1,0 +1,99 @@
+.container__conditions__tablet {
+  display: none;
+}
+.container__footer__navbar__link {
+  display: flex;
+  flex-direction: row;
+}
+.container__footer__mini-navbar {
+  display: flex;
+  flex-direction: column;
+}
+.container__body__cards {
+  display: flex;
+  flex-direction: column;
+}
+.container__header__basket {
+  display: none;
+}
+@media (min-width: 768px) {
+  .container__conditions_mobile {
+    display: none;
+  }
+  .container__conditions__tablet {
+    display: flex;
+  }
+  .container_padding {
+    padding-right: 8px;
+  }
+  .container_alignment {
+    margin-right: -8px; 
+  }
+  .container__header__buttons {
+    width: 176px;
+  }
+  .container__header__button {
+    width: 80px;
+  }
+  .container__header__basket {
+    display: unset;
+  }
+  .container__conditions_tablet {
+    display: unset;
+  }
+  .container__body__header {
+    margin-top: 56px;
+  }
+  .container__body__cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .container__body__card {
+    flex-basis: 49%;
+  }
+  .container__body__card_pic {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container__footer__nav__first-section {
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container__footer__lang-soc {
+    display: flex;
+    flex-direction: column;
+  }
+  .container__footer__navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  } 
+  .container__footer__navbar__item {
+    margin-top: 40px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+  }
+  .container__footer__navbar__item_left {
+    margin-left: 80px;
+  }
+  .container__footer__navbar__item_right {
+    margin-left: 86px;
+  }
+  .container__footer__download-links {
+    height: 120px;
+  }
+  .container__footer__mini-navbar {
+    flex-direction: row;
+  }
+  .container__footer__mini-navbar__link_first {
+    margin-left: 106px;
+  }
+  .container__footer__mini-navbar__link_second {
+    margin-left: 220px;
+  }
+}
